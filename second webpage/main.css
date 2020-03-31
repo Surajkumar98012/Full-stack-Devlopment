@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+color: white;
+
+}
+h1{
+	font: bold 30px tohama;
+	color: blue;
+}
+h2{
+	font: bold 30px tohama;
+	color: green;
+}
+h3{
+	font: bold 30px tohama;
+	color: yellow;
+}
+header,section,footer,aside,nav{display: block;}
+	#atoms{border:1px solid white;
+	width:1000px;
+	margin:1px auto;
+	text-align: left;
+}
+#top_menu{background: red;
+          color: white;}
+          #top_menu li{
+          	display:inline-block;
+          	list-style: none;
+          	padding: 7px;
+          	font: bold 20px Tahomal;}
+#main_section{
+	float: left;
+	width:700px;
+	margin:30px;
+}
+          
+#side_content{
+	float: right;
+	border: 1px solid yellow;
+	margin:20px 0px;
+	padding: 5px;
+	text-align: left;
+
+}
+#forms{
+     float:left;
+     margin:2px 0px;
+	padding: 5px;
+	text-align: center;
+}
+#formed{
+	color: black;
+}
+#forming{
+	color: blue;
+}
+#form{
+      float: left;
+      border: 1px solid white;
+      margin: 20px 0px;
+      padding: 5px;
+      text-align: left;
+}
+#the_footer{
+	clear:both;
+	text-allign:center;
+	padding:20px;
+	margin: 50px;
+	border-top: 2px white;
+}
+#creater{
+     text-align: right;
+     font-size: italic;
+
+}
+#side_news{
+	float: right;
+	margin: 20px 30px;
+	padding:5px;
+	text-align: left;
+
+}
+#images{
+	float: left;
+	margin: 20px 30px;
+	padding:7px;
+	border: 1px solid white;
+	text-align: left;
+}
+#option{
+	color: black;
+}
+#login{
+	color: blue;
+	display: inline-block;
+
+}
+#register{
+	color: red;
+	display: inline-block;
+	text-align: right;
+}
+#password{color: black;}
